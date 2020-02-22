@@ -1,5 +1,5 @@
 import express from 'express'
-import bodyParser, { OptionsJson } from 'body-parser'
+import bodyParser from 'body-parser'
 import { connect } from 'mongoose'
 import { env } from './environments'
 

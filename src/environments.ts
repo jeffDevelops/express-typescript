@@ -23,7 +23,7 @@ export const env: Environment = (() => {
     default:
       return {
         apiHost: 'http://localhost',
-        databaseHost: 'mongodb://localhost:27017/tugboat'
+        databaseHost: 'mongodb://localhost:27017/NOT_CONFIGURED'
       }
   }
 })()
